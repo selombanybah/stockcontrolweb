@@ -1,0 +1,2148 @@
+2010/06/26 22:55:07 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:55:07 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:55:07 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:55:07 [trace] [system.web.filters.CFilterChain] Running filter ClienteController.filteraccessControl()
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:55:07 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:55:07 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:55:07 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (58)
+2010/06/26 22:55:07 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (58)
+2010/06/26 22:55:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `cliente`
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (58)
+2010/06/26 22:55:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cliente`
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (58)
+2010/06/26 22:55:07 [trace] [system.db.ar.CActiveRecord] Cliente.findByPk()
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (58)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:55:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cliente` `t` WHERE ( (t.eliminado = 0  AND t.idEmpresa = 1) ) AND (`t`.`id`=3) LIMIT 1
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (58)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:55:07 [trace] [system.CModule] Loading "messages" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\view.php (24)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (59)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:55:07 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\yii\framework\zii\widgets\CDetailView.php (143)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\view.php (35)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (59)
+2010/06/26 22:55:07 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\yii\framework\zii\widgets\CDetailView.php (147)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\view.php (35)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (59)
+2010/06/26 22:55:07 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\yii\framework\zii\widgets\CDetailView.php (153)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\view.php (35)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (59)
+2010/06/26 22:55:07 [trace] [system.CModule] Loading "format" application component
+in C:\wamp\www\yii\framework\zii\widgets\CDetailView.php (216)
+in C:\wamp\www\yii\framework\zii\widgets\CDetailView.php (163)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\view.php (35)
+2010/06/26 22:55:17 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:55:17 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:55:17 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:55:17 [trace] [system.web.filters.CFilterChain] Running filter ClienteController.filteraccessControl()
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:55:17 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:55:17 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:55:17 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (91)
+2010/06/26 22:55:17 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (91)
+2010/06/26 22:55:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `cliente`
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (91)
+2010/06/26 22:55:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cliente`
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (91)
+2010/06/26 22:55:17 [trace] [system.db.ar.CActiveRecord] Cliente.findByPk()
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (91)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:55:17 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cliente` `t` WHERE ( (t.eliminado = 0  AND t.idEmpresa = 1) ) AND (`t`.`id`=3) LIMIT 1
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (91)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:55:17 [trace] [system.CModule] Loading "messages" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\update.php (3)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (105)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:55:17 [trace] [system.CModule] Loading "securityManager" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_form.php (7)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\update.php (17)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (105)
+2010/06/26 22:55:17 [trace] [system.CModule] Loading "statePersister" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_form.php (7)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\update.php (17)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (105)
+2010/06/26 22:55:17 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\yii\framework\zii\widgets\jui\CJuiWidget.php (98)
+in C:\wamp\www\yii\framework\zii\widgets\jui\CJuiWidget.php (82)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_form.php (62)
+2010/06/26 22:55:17 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\yii\framework\zii\widgets\jui\CJuiWidget.php (112)
+in C:\wamp\www\yii\framework\zii\widgets\jui\CJuiWidget.php (83)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_form.php (62)
+2010/06/26 22:55:58 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:55:58 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:55:58 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:55:58 [trace] [system.web.filters.CFilterChain] Running filter ClienteController.filteraccessControl()
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:55:58 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:55:58 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:55:58 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (58)
+2010/06/26 22:55:58 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (58)
+2010/06/26 22:55:58 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `cliente`
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (58)
+2010/06/26 22:55:58 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cliente`
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (58)
+2010/06/26 22:55:58 [trace] [system.db.ar.CActiveRecord] Cliente.findByPk()
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (58)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:55:58 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cliente` `t` WHERE ( (t.eliminado = 0  AND t.idEmpresa = 1) ) AND (`t`.`id`=3) LIMIT 1
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (58)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:55:58 [trace] [system.CModule] Loading "messages" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\view.php (24)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (59)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:55:58 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\yii\framework\zii\widgets\CDetailView.php (143)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\view.php (35)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (59)
+2010/06/26 22:55:58 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\yii\framework\zii\widgets\CDetailView.php (147)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\view.php (35)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (59)
+2010/06/26 22:55:58 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\yii\framework\zii\widgets\CDetailView.php (153)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\view.php (35)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (59)
+2010/06/26 22:55:58 [trace] [system.CModule] Loading "format" application component
+in C:\wamp\www\yii\framework\zii\widgets\CDetailView.php (216)
+in C:\wamp\www\yii\framework\zii\widgets\CDetailView.php (163)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\view.php (35)
+2010/06/26 22:56:01 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:56:01 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:56:01 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:56:01 [trace] [system.web.filters.CFilterChain] Running filter ClienteController.filteraccessControl()
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:56:01 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:56:01 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:56:01 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (131)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:56:01 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (131)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:56:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `cliente`
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (131)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:56:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cliente`
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (131)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:56:01 [trace] [system.CModule] Loading "messages" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (4)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (139)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:56:01 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (12)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (139)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:56:01 [trace] [system.CModule] Loading "securityManager" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_search.php (6)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (39)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (139)
+2010/06/26 22:56:01 [trace] [system.CModule] Loading "statePersister" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_search.php (6)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (39)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (139)
+2010/06/26 22:56:01 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\yii\framework\zii\widgets\jui\CJuiWidget.php (98)
+in C:\wamp\www\yii\framework\zii\widgets\jui\CJuiWidget.php (82)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_search.php (60)
+2010/06/26 22:56:01 [trace] [system.db.ar.CActiveRecord] Cliente.count()
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (220)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (78)
+2010/06/26 22:56:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `cliente` `t` WHERE  (t.eliminado = 0  AND t.idEmpresa = 1) 
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (220)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (78)
+2010/06/26 22:56:01 [trace] [system.db.ar.CActiveRecord] Cliente.findAll()
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (220)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (78)
+2010/06/26 22:56:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cliente` `t` WHERE  (t.eliminado = 0  AND t.idEmpresa = 1)  ORDER BY numero ASC LIMIT 5
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (220)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (78)
+2010/06/26 22:56:01 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\yii\framework\zii\widgets\grid\CButtonColumn.php (171)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CButtonColumn.php (147)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (267)
+2010/06/26 22:56:01 [trace] [system.CModule] Loading "format" application component
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (469)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CDataColumn.php (128)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridColumn.php (135)
+2010/06/26 22:56:04 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:56:04 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:56:04 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:56:04 [trace] [system.web.filters.CFilterChain] Running filter ProveedorController.filteraccessControl()
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:56:04 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:56:04 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:56:04 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 22:56:04 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 22:56:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `proveedor`
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 22:56:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `proveedor`
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 22:56:04 [trace] [system.db.ar.CActiveRecord] Proveedor.count()
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 22:56:04 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `proveedor` `t` WHERE  (t.eliminado = 0  AND t.idEmpresa = 1) 
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 22:56:04 [trace] [system.db.ar.CActiveRecord] Proveedor.findAll()
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 22:56:04 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `proveedor` `t` WHERE  (t.eliminado = 0  AND t.idEmpresa = 1)  LIMIT 10
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 22:56:04 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (157)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ProveedorController.php (135)
+2010/06/26 22:56:04 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (163)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ProveedorController.php (135)
+2010/06/26 22:56:04 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (166)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (219)
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (152)
+2010/06/26 22:56:08 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:56:08 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:56:08 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:56:08 [trace] [system.web.filters.CFilterChain] Running filter ClienteController.filteraccessControl()
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:56:08 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:56:08 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:56:08 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (131)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:56:08 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (131)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:56:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `cliente`
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (131)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:56:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cliente`
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (131)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:56:08 [trace] [system.CModule] Loading "messages" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (4)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (139)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:56:08 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (12)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (139)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:56:08 [trace] [system.CModule] Loading "securityManager" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_search.php (6)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (39)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (139)
+2010/06/26 22:56:08 [trace] [system.CModule] Loading "statePersister" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_search.php (6)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (39)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (139)
+2010/06/26 22:56:08 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\yii\framework\zii\widgets\jui\CJuiWidget.php (98)
+in C:\wamp\www\yii\framework\zii\widgets\jui\CJuiWidget.php (82)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_search.php (60)
+2010/06/26 22:56:08 [trace] [system.db.ar.CActiveRecord] Cliente.count()
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (220)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (78)
+2010/06/26 22:56:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `cliente` `t` WHERE  (t.eliminado = 0  AND t.idEmpresa = 1) 
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (220)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (78)
+2010/06/26 22:56:08 [trace] [system.db.ar.CActiveRecord] Cliente.findAll()
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (220)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (78)
+2010/06/26 22:56:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cliente` `t` WHERE  (t.eliminado = 0  AND t.idEmpresa = 1)  ORDER BY numero ASC LIMIT 5
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (220)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (78)
+2010/06/26 22:56:08 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\yii\framework\zii\widgets\grid\CButtonColumn.php (171)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CButtonColumn.php (147)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (267)
+2010/06/26 22:56:08 [trace] [system.CModule] Loading "format" application component
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (469)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CDataColumn.php (128)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridColumn.php (135)
+2010/06/26 22:56:18 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:56:18 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:56:18 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:56:18 [trace] [system.web.filters.CFilterChain] Running filter ClienteController.filteraccessControl()
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:56:18 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:56:18 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:56:18 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (58)
+2010/06/26 22:56:18 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (58)
+2010/06/26 22:56:18 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `cliente`
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (58)
+2010/06/26 22:56:18 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cliente`
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (58)
+2010/06/26 22:56:18 [trace] [system.db.ar.CActiveRecord] Cliente.findByPk()
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (58)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:56:18 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cliente` `t` WHERE ( (t.eliminado = 0  AND t.idEmpresa = 1) ) AND (`t`.`id`=1) LIMIT 1
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (58)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:56:18 [trace] [system.CModule] Loading "messages" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\view.php (24)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (59)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:56:18 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\yii\framework\zii\widgets\CDetailView.php (143)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\view.php (35)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (59)
+2010/06/26 22:56:18 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\yii\framework\zii\widgets\CDetailView.php (147)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\view.php (35)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (59)
+2010/06/26 22:56:18 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\yii\framework\zii\widgets\CDetailView.php (153)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\view.php (35)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (59)
+2010/06/26 22:56:18 [trace] [system.CModule] Loading "format" application component
+in C:\wamp\www\yii\framework\zii\widgets\CDetailView.php (216)
+in C:\wamp\www\yii\framework\zii\widgets\CDetailView.php (163)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\view.php (35)
+2010/06/26 22:58:16 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:58:16 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:58:16 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:58:16 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\stockcontrolweb\protected\views\layouts\main.php (19)
+in C:\wamp\www\stockcontrolweb\protected\views\layouts\column2.php (45)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:58:16 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\stockcontrolweb\protected\views\layouts\main.php (19)
+in C:\wamp\www\stockcontrolweb\protected\views\layouts\column2.php (45)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:58:16 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:58:23 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:58:23 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:58:23 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:58:23 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:58:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "contact" was not found.' in C:\wamp\www\yii\framework\web\actions\CViewAction.php:110
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\actions\CViewAction.php(121): CViewAction->resolveView('contact')
+#1 C:\wamp\www\yii\framework\web\CController.php(300): CViewAction->run()
+#2 C:\wamp\www\yii\framework\web\CController.php(278): CController->runAction(Object(CViewAction))
+#3 C:\wamp\www\yii\framework\web\CController.php(257): CController->runActionWithFilters(Object(CViewAction), Array)
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(320): CController->run('page')
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(120): CWebApplication->runController('site/page')
+#6 C:\wamp\www\yii\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#7 C:\wamp\www\stockcontrolweb\index.php(12): CApplication->run()
+#8 {main} REQUEST_URI=/stockcontrolweb/index.php?r=site/page&view=contact
+2010/06/26 22:58:23 [trace] [system.CModule] Loading "errorHandler" application component
+2010/06/26 22:58:23 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\stockcontrolweb\protected\views\layouts\main.php (19)
+in C:\wamp\www\stockcontrolweb\protected\views\layouts\column2.php (45)
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (45)
+2010/06/26 22:58:23 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\stockcontrolweb\protected\views\layouts\main.php (19)
+in C:\wamp\www\stockcontrolweb\protected\views\layouts\column2.php (45)
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (45)
+2010/06/26 22:58:23 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (45)
+2010/06/26 22:58:30 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:58:30 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:58:30 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:58:30 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\stockcontrolweb\protected\views\site\contact.php (10)
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (66)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:58:30 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\stockcontrolweb\protected\views\site\contact.php (10)
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (66)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:58:30 [trace] [system.CModule] Loading "securityManager" application component
+in C:\wamp\www\stockcontrolweb\protected\views\site\contact.php (24)
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (66)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:58:30 [trace] [system.CModule] Loading "statePersister" application component
+in C:\wamp\www\stockcontrolweb\protected\views\site\contact.php (24)
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (66)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:58:30 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\stockcontrolweb\protected\views\site\contact.php (54)
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (66)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:58:30 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\stockcontrolweb\protected\views\site\contact.php (54)
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (66)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:58:30 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (66)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:58:30 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:58:30 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:58:30 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:58:30 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:58:59 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:58:59 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:58:59 [trace] [system.CModule] Loading "securityManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:58:59 [trace] [system.CModule] Loading "statePersister" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:58:59 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:58:59 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (58)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:59:00 [error] [php] mail() [<a href='function.mail'>function.mail</a>]: Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() (C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php:61)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(300): CInlineAction->run()
+#1 C:\wamp\www\yii\framework\web\CController.php(278): SiteController->runAction()
+#2 C:\wamp\www\yii\framework\web\CController.php(257): SiteController->runActionWithFilters()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(320): SiteController->run()
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(120): CWebApplication->runController()
+#5 C:\wamp\www\yii\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#6 C:\wamp\www\stockcontrolweb\index.php(12): CWebApplication->run()
+REQUEST_URI=/stockcontrolweb/index.php?r=site/contact
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (61)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:59:00 [trace] [system.CModule] Loading "errorHandler" application component
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (61)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:59:09 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:59:09 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:59:09 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:59:09 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\stockcontrolweb\protected\views\site\contact.php (10)
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (66)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:59:09 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\stockcontrolweb\protected\views\site\contact.php (10)
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (66)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:59:09 [trace] [system.CModule] Loading "securityManager" application component
+in C:\wamp\www\stockcontrolweb\protected\views\site\contact.php (24)
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (66)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:59:09 [trace] [system.CModule] Loading "statePersister" application component
+in C:\wamp\www\stockcontrolweb\protected\views\site\contact.php (24)
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (66)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:59:09 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\stockcontrolweb\protected\views\site\contact.php (54)
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (66)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:59:09 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\stockcontrolweb\protected\views\site\contact.php (54)
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (66)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:59:09 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (66)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:59:44 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:59:44 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:59:44 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:59:44 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:59:44 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:59:44 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:59:44 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:59:44 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:59:53 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:59:53 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:59:53 [trace] [system.CModule] Loading "securityManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:59:53 [trace] [system.CModule] Loading "statePersister" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:59:53 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:59:53 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (58)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:59:54 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (62)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:59:54 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:59:54 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:59:54 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:59:54 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\stockcontrolweb\protected\views\site\contact.php (10)
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (66)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:59:54 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\stockcontrolweb\protected\views\site\contact.php (10)
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (66)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 22:59:54 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (66)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:04:29 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:04:29 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:04:29 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:04:29 [trace] [system.web.filters.CFilterChain] Running filter ClienteController.filteraccessControl()
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:04:29 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:04:29 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:04:29 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (131)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:04:29 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (131)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:04:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `cliente`
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (131)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:04:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cliente`
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (131)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:04:29 [trace] [system.CModule] Loading "messages" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (4)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (139)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:04:29 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (12)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (139)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:04:29 [trace] [system.CModule] Loading "securityManager" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_search.php (6)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (39)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (139)
+2010/06/26 23:04:29 [trace] [system.CModule] Loading "statePersister" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_search.php (6)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (39)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (139)
+2010/06/26 23:04:29 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\yii\framework\zii\widgets\jui\CJuiWidget.php (98)
+in C:\wamp\www\yii\framework\zii\widgets\jui\CJuiWidget.php (82)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_search.php (60)
+2010/06/26 23:04:29 [trace] [system.db.ar.CActiveRecord] Cliente.count()
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (220)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (78)
+2010/06/26 23:04:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `cliente` `t` WHERE  (t.eliminado = 0  AND t.idEmpresa = 1) 
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (220)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (78)
+2010/06/26 23:04:29 [trace] [system.db.ar.CActiveRecord] Cliente.findAll()
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (220)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (78)
+2010/06/26 23:04:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cliente` `t` WHERE  (t.eliminado = 0  AND t.idEmpresa = 1)  ORDER BY numero ASC LIMIT 5
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (220)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (78)
+2010/06/26 23:04:29 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\yii\framework\zii\widgets\grid\CButtonColumn.php (171)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CButtonColumn.php (147)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (267)
+2010/06/26 23:04:29 [trace] [system.CModule] Loading "format" application component
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (469)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CDataColumn.php (128)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridColumn.php (135)
+2010/06/26 23:04:29 [error] [exception.CException] exception 'CException' with message 'Property "ClienteController.controller" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\stockcontrolweb\protected\views\layouts\main.php(39): CComponent->__get('controller')
+#1 C:\wamp\www\yii\framework\web\CBaseController.php(119): require('C:\wamp\www\sto...')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(88): CBaseController->renderInternal('C:\wamp\www\sto...', Array, true)
+#3 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(78): CBaseController->renderFile('C:\wamp\www\sto...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(56): CContentDecorator->decorate('<div class="con...')
+#5 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div class="con...')
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(207): COutputProcessor->run()
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(302): CBaseController->endWidget('CContentDecorat...')
+#8 C:\wamp\www\stockcontrolweb\protected\views\layouts\column2.php(45): CBaseController->endContent()
+#9 C:\wamp\www\yii\framework\web\CBaseController.php(119): require('C:\wamp\www\sto...')
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(88): CBaseController->renderInternal('C:\wamp\www\sto...', Array, true)
+#11 C:\wamp\www\yii\framework\web\CController.php(689): CBaseController->renderFile('C:\wamp\www\sto...', Array, true)
+#12 C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php(139): CController->render('index', Array)
+#13 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(32): ClienteController->actionIndex()
+#14 C:\wamp\www\yii\framework\web\CController.php(300): CInlineAction->run()
+#15 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(129): CController->runAction(Object(CInlineAction))
+#16 C:\wamp\www\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#17 C:\wamp\www\yii\framework\web\CController.php(999): CFilter->filter(Object(CFilterChain))
+#18 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(126): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\wamp\www\yii\framework\web\CController.php(283): CFilterChain->run()
+#21 C:\wamp\www\yii\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\wamp\www\yii\framework\web\CWebApplication.php(320): CController->run('index')
+#23 C:\wamp\www\yii\framework\web\CWebApplication.php(120): CWebApplication->runController('cliente/index')
+#24 C:\wamp\www\yii\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#25 C:\wamp\www\stockcontrolweb\index.php(12): CApplication->run()
+#26 {main} REQUEST_URI=/stockcontrolweb/index.php?r=cliente/index
+2010/06/26 23:04:29 [trace] [system.CModule] Loading "errorHandler" application component
+2010/06/26 23:05:54 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:05:54 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:05:54 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:05:54 [trace] [system.web.filters.CFilterChain] Running filter ClienteController.filteraccessControl()
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:05:54 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:05:54 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:05:54 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (131)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:05:54 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (131)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:05:54 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `cliente`
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (131)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:05:54 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cliente`
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (131)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:05:54 [trace] [system.CModule] Loading "messages" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (4)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (139)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:05:54 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (12)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (139)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:05:54 [trace] [system.CModule] Loading "securityManager" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_search.php (6)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (39)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (139)
+2010/06/26 23:05:54 [trace] [system.CModule] Loading "statePersister" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_search.php (6)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (39)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (139)
+2010/06/26 23:05:54 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\yii\framework\zii\widgets\jui\CJuiWidget.php (98)
+in C:\wamp\www\yii\framework\zii\widgets\jui\CJuiWidget.php (82)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_search.php (60)
+2010/06/26 23:05:54 [trace] [system.db.ar.CActiveRecord] Cliente.count()
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (220)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (78)
+2010/06/26 23:05:54 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `cliente` `t` WHERE  (t.eliminado = 0  AND t.idEmpresa = 1) 
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (220)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (78)
+2010/06/26 23:05:54 [trace] [system.db.ar.CActiveRecord] Cliente.findAll()
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (220)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (78)
+2010/06/26 23:05:54 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cliente` `t` WHERE  (t.eliminado = 0  AND t.idEmpresa = 1)  ORDER BY numero ASC LIMIT 5
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (220)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (78)
+2010/06/26 23:05:54 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\yii\framework\zii\widgets\grid\CButtonColumn.php (171)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CButtonColumn.php (147)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (267)
+2010/06/26 23:05:54 [trace] [system.CModule] Loading "format" application component
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (469)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CDataColumn.php (128)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridColumn.php (135)
+2010/06/26 23:06:00 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:06:00 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:06:00 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:06:00 [trace] [system.web.filters.CFilterChain] Running filter ClienteController.filteraccessControl()
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:06:00 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:06:00 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:06:00 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (58)
+2010/06/26 23:06:00 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (58)
+2010/06/26 23:06:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `cliente`
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (58)
+2010/06/26 23:06:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cliente`
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (58)
+2010/06/26 23:06:00 [trace] [system.db.ar.CActiveRecord] Cliente.findByPk()
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (58)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:06:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cliente` `t` WHERE ( (t.eliminado = 0  AND t.idEmpresa = 1) ) AND (`t`.`id`=2) LIMIT 1
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (58)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:06:00 [trace] [system.CModule] Loading "messages" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\view.php (24)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (59)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:06:00 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\yii\framework\zii\widgets\CDetailView.php (143)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\view.php (35)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (59)
+2010/06/26 23:06:00 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\yii\framework\zii\widgets\CDetailView.php (147)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\view.php (35)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (59)
+2010/06/26 23:06:00 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\yii\framework\zii\widgets\CDetailView.php (153)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\view.php (35)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (59)
+2010/06/26 23:06:00 [trace] [system.CModule] Loading "format" application component
+in C:\wamp\www\yii\framework\zii\widgets\CDetailView.php (216)
+in C:\wamp\www\yii\framework\zii\widgets\CDetailView.php (163)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\view.php (35)
+2010/06/26 23:06:02 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:06:02 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:06:02 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:06:02 [trace] [system.web.filters.CFilterChain] Running filter ClienteController.filteraccessControl()
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:06:02 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:06:02 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:06:02 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (91)
+2010/06/26 23:06:02 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (91)
+2010/06/26 23:06:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `cliente`
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (91)
+2010/06/26 23:06:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cliente`
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (91)
+2010/06/26 23:06:02 [trace] [system.db.ar.CActiveRecord] Cliente.findByPk()
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (91)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:06:03 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cliente` `t` WHERE ( (t.eliminado = 0  AND t.idEmpresa = 1) ) AND (`t`.`id`=2) LIMIT 1
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (91)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:06:03 [trace] [system.CModule] Loading "messages" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\update.php (3)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (105)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:06:03 [trace] [system.CModule] Loading "securityManager" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_form.php (7)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\update.php (17)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (105)
+2010/06/26 23:06:03 [trace] [system.CModule] Loading "statePersister" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_form.php (7)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\update.php (17)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (105)
+2010/06/26 23:06:03 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\yii\framework\zii\widgets\jui\CJuiWidget.php (98)
+in C:\wamp\www\yii\framework\zii\widgets\jui\CJuiWidget.php (82)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_form.php (59)
+2010/06/26 23:06:03 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\yii\framework\zii\widgets\jui\CJuiWidget.php (112)
+in C:\wamp\www\yii\framework\zii\widgets\jui\CJuiWidget.php (83)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_form.php (59)
+2010/06/26 23:06:05 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:06:05 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:06:05 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:06:05 [trace] [system.web.filters.CFilterChain] Running filter ProveedorController.filteraccessControl()
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:06:05 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:06:05 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:06:05 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:06:05 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:06:05 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `proveedor`
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:06:05 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `proveedor`
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:06:05 [trace] [system.db.ar.CActiveRecord] Proveedor.count()
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:06:05 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `proveedor` `t` WHERE  (t.eliminado = 0  AND t.idEmpresa = 1) 
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:06:05 [trace] [system.db.ar.CActiveRecord] Proveedor.findAll()
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:06:05 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `proveedor` `t` WHERE  (t.eliminado = 0  AND t.idEmpresa = 1)  LIMIT 10
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:06:05 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (157)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ProveedorController.php (135)
+2010/06/26 23:06:05 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (163)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ProveedorController.php (135)
+2010/06/26 23:06:05 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (166)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (219)
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (152)
+2010/06/26 23:10:06 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:10:06 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:10:06 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:10:06 [trace] [system.web.filters.CFilterChain] Running filter ProveedorController.filteraccessControl()
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:10:06 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:10:06 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:10:06 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:10:06 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:10:06 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `proveedor`
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:10:06 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `proveedor`
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:10:06 [trace] [system.db.ar.CActiveRecord] Proveedor.count()
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:10:06 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `proveedor` `t` WHERE  (t.eliminado = 0  AND t.idEmpresa = 1) 
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:10:06 [trace] [system.db.ar.CActiveRecord] Proveedor.findAll()
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:10:06 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `proveedor` `t` WHERE  (t.eliminado = 0  AND t.idEmpresa = 1)  LIMIT 10
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:10:06 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (157)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ProveedorController.php (135)
+2010/06/26 23:10:06 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (163)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ProveedorController.php (135)
+2010/06/26 23:10:06 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (166)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (219)
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (152)
+2010/06/26 23:10:09 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:10:09 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:10:09 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:10:09 [trace] [system.web.filters.CFilterChain] Running filter ProveedorController.filteraccessControl()
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:10:09 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:10:09 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:10:09 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:10:09 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:10:09 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `proveedor`
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:10:09 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `proveedor`
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:10:09 [trace] [system.db.ar.CActiveRecord] Proveedor.count()
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:10:09 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `proveedor` `t` WHERE  (t.eliminado = 0  AND t.idEmpresa = 1) 
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:10:09 [trace] [system.db.ar.CActiveRecord] Proveedor.findAll()
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:10:09 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `proveedor` `t` WHERE  (t.eliminado = 0  AND t.idEmpresa = 1)  LIMIT 10
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:10:09 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (157)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ProveedorController.php (135)
+2010/06/26 23:10:09 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (163)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ProveedorController.php (135)
+2010/06/26 23:10:09 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (166)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (219)
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (152)
+2010/06/26 23:10:35 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:10:35 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:10:35 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:10:35 [trace] [system.web.filters.CFilterChain] Running filter ProveedorController.filteraccessControl()
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:10:35 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:10:35 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:10:35 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:10:35 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:10:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `proveedor`
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:10:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `proveedor`
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:10:35 [trace] [system.db.ar.CActiveRecord] Proveedor.count()
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:10:35 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `proveedor` `t` WHERE  (t.eliminado = 0  AND t.idEmpresa = 1) 
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:10:35 [trace] [system.db.ar.CActiveRecord] Proveedor.findAll()
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:10:35 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `proveedor` `t` WHERE  (t.eliminado = 0  AND t.idEmpresa = 1)  LIMIT 10
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:10:35 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (157)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ProveedorController.php (135)
+2010/06/26 23:10:35 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (163)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ProveedorController.php (135)
+2010/06/26 23:10:35 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (166)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (219)
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (152)
+2010/06/26 23:11:29 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:11:29 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:11:29 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:11:29 [trace] [system.web.filters.CFilterChain] Running filter ProveedorController.filteraccessControl()
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:11:29 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:11:29 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:11:29 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:11:29 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:11:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `proveedor`
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:11:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `proveedor`
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:11:29 [trace] [system.db.ar.CActiveRecord] Proveedor.count()
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:11:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `proveedor` `t` WHERE  (t.eliminado = 0  AND t.idEmpresa = 1) 
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:11:29 [trace] [system.db.ar.CActiveRecord] Proveedor.findAll()
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:11:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `proveedor` `t` WHERE  (t.eliminado = 0  AND t.idEmpresa = 1)  LIMIT 10
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:11:29 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (157)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ProveedorController.php (135)
+2010/06/26 23:11:29 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (163)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ProveedorController.php (135)
+2010/06/26 23:11:29 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (166)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (219)
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (152)
+2010/06/26 23:12:08 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:12:08 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:12:08 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:12:08 [trace] [system.web.filters.CFilterChain] Running filter ProveedorController.filteraccessControl()
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:12:08 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:12:08 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:12:08 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:12:08 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:12:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `proveedor`
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:12:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `proveedor`
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:12:08 [trace] [system.db.ar.CActiveRecord] Proveedor.count()
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:12:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `proveedor` `t` WHERE  (t.eliminado = 0  AND t.idEmpresa = 1) 
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:12:08 [trace] [system.db.ar.CActiveRecord] Proveedor.findAll()
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:12:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `proveedor` `t` WHERE  (t.eliminado = 0  AND t.idEmpresa = 1)  LIMIT 10
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (151)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+2010/06/26 23:12:08 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (157)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ProveedorController.php (135)
+2010/06/26 23:12:08 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (163)
+in C:\wamp\www\stockcontrolweb\protected\views\proveedor\index.php (17)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ProveedorController.php (135)
+2010/06/26 23:12:08 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (166)
+in C:\wamp\www\yii\framework\zii\widgets\CListView.php (219)
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (152)
+2010/06/26 23:12:33 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:12:33 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:12:33 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:12:33 [trace] [system.web.filters.CFilterChain] Running filter ClienteController.filteraccessControl()
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:12:33 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:12:33 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:12:33 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (131)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:12:33 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (131)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:12:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `cliente`
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (131)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:12:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cliente`
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (131)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:12:33 [trace] [system.CModule] Loading "messages" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (4)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (139)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:12:33 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (12)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (139)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:12:33 [trace] [system.CModule] Loading "securityManager" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_search.php (6)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (39)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (139)
+2010/06/26 23:12:33 [trace] [system.CModule] Loading "statePersister" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_search.php (6)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (39)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (139)
+2010/06/26 23:12:33 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\yii\framework\zii\widgets\jui\CJuiWidget.php (98)
+in C:\wamp\www\yii\framework\zii\widgets\jui\CJuiWidget.php (82)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_search.php (60)
+2010/06/26 23:12:33 [trace] [system.db.ar.CActiveRecord] Cliente.count()
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (220)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (78)
+2010/06/26 23:12:33 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `cliente` `t` WHERE  (t.eliminado = 0  AND t.idEmpresa = 1) 
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (220)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (78)
+2010/06/26 23:12:33 [trace] [system.db.ar.CActiveRecord] Cliente.findAll()
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (220)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (78)
+2010/06/26 23:12:33 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cliente` `t` WHERE  (t.eliminado = 0  AND t.idEmpresa = 1)  ORDER BY numero ASC LIMIT 5
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (220)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (78)
+2010/06/26 23:12:33 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\yii\framework\zii\widgets\grid\CButtonColumn.php (171)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CButtonColumn.php (147)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (267)
+2010/06/26 23:12:33 [trace] [system.CModule] Loading "format" application component
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (469)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CDataColumn.php (128)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridColumn.php (135)
+2010/06/26 23:16:07 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:16:07 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:16:07 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:16:07 [trace] [system.web.filters.CFilterChain] Running filter ClienteController.filteraccessControl()
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:16:07 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:16:07 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:16:07 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (131)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:16:07 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (131)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:16:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `cliente`
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (131)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:16:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cliente`
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (131)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:16:07 [trace] [system.CModule] Loading "messages" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (4)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (139)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:16:07 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (12)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (139)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:16:07 [trace] [system.CModule] Loading "securityManager" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_search.php (6)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (39)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (139)
+2010/06/26 23:16:07 [trace] [system.CModule] Loading "statePersister" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_search.php (6)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (39)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (139)
+2010/06/26 23:16:07 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\yii\framework\zii\widgets\jui\CJuiWidget.php (98)
+in C:\wamp\www\yii\framework\zii\widgets\jui\CJuiWidget.php (82)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_search.php (60)
+2010/06/26 23:16:07 [trace] [system.db.ar.CActiveRecord] Cliente.count()
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (220)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (79)
+2010/06/26 23:16:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `cliente` `t` WHERE  (t.eliminado = 0  AND t.idEmpresa = 1) 
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (220)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (79)
+2010/06/26 23:16:07 [trace] [system.db.ar.CActiveRecord] Cliente.findAll()
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (220)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (79)
+2010/06/26 23:16:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cliente` `t` WHERE  (t.eliminado = 0  AND t.idEmpresa = 1)  ORDER BY numero ASC LIMIT 5
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (220)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (79)
+2010/06/26 23:16:07 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\yii\framework\zii\widgets\grid\CButtonColumn.php (171)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CButtonColumn.php (147)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (267)
+2010/06/26 23:16:07 [trace] [system.CModule] Loading "format" application component
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (469)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CDataColumn.php (128)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridColumn.php (135)
+2010/06/26 23:17:29 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:17:29 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:17:29 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:17:29 [trace] [system.web.filters.CFilterChain] Running filter ClienteController.filteraccessControl()
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:17:29 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:17:29 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:17:29 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (131)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:17:29 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (131)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:17:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `cliente`
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (131)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:17:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cliente`
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (131)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:17:29 [trace] [system.CModule] Loading "messages" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (4)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (139)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:17:29 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (12)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (139)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:17:29 [trace] [system.CModule] Loading "securityManager" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_search.php (6)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (39)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (139)
+2010/06/26 23:17:29 [trace] [system.CModule] Loading "statePersister" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_search.php (6)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (39)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (139)
+2010/06/26 23:17:29 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\yii\framework\zii\widgets\jui\CJuiWidget.php (98)
+in C:\wamp\www\yii\framework\zii\widgets\jui\CJuiWidget.php (82)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_search.php (60)
+2010/06/26 23:17:29 [trace] [system.db.ar.CActiveRecord] Cliente.count()
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (220)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (79)
+2010/06/26 23:17:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `cliente` `t` WHERE  (t.eliminado = 0  AND t.idEmpresa = 1) 
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (220)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (79)
+2010/06/26 23:17:29 [trace] [system.db.ar.CActiveRecord] Cliente.findAll()
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (220)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (79)
+2010/06/26 23:17:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cliente` `t` WHERE  (t.eliminado = 0  AND t.idEmpresa = 1)  ORDER BY numero ASC LIMIT 5
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (220)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (79)
+2010/06/26 23:17:29 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\yii\framework\zii\widgets\grid\CButtonColumn.php (171)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CButtonColumn.php (147)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (267)
+2010/06/26 23:17:29 [trace] [system.CModule] Loading "format" application component
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (469)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CDataColumn.php (128)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridColumn.php (135)
+2010/06/26 23:18:17 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:18:17 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:18:17 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:18:17 [trace] [system.web.filters.CFilterChain] Running filter ClienteController.filteraccessControl()
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:18:17 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:18:17 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:18:17 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (131)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:18:17 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (131)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:18:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `cliente`
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (131)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:18:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cliente`
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (131)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:18:17 [trace] [system.CModule] Loading "messages" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (4)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (139)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:18:17 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (12)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (139)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/26 23:18:17 [trace] [system.CModule] Loading "securityManager" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_search.php (6)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (39)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (139)
+2010/06/26 23:18:17 [trace] [system.CModule] Loading "statePersister" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_search.php (6)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (39)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (139)
+2010/06/26 23:18:17 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\yii\framework\zii\widgets\jui\CJuiWidget.php (98)
+in C:\wamp\www\yii\framework\zii\widgets\jui\CJuiWidget.php (82)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_search.php (60)
+2010/06/26 23:18:17 [trace] [system.db.ar.CActiveRecord] Cliente.count()
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (220)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (79)
+2010/06/26 23:18:17 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `cliente` `t` WHERE  (t.eliminado = 0  AND t.idEmpresa = 1) 
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (220)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (79)
+2010/06/26 23:18:17 [trace] [system.db.ar.CActiveRecord] Cliente.findAll()
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (220)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (79)
+2010/06/26 23:18:17 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cliente` `t` WHERE  (t.eliminado = 0  AND t.idEmpresa = 1)  ORDER BY numero ASC LIMIT 5
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (220)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (79)
+2010/06/26 23:18:17 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\yii\framework\zii\widgets\grid\CButtonColumn.php (171)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CButtonColumn.php (147)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (267)
+2010/06/26 23:18:17 [trace] [system.CModule] Loading "format" application component
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (469)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CDataColumn.php (128)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridColumn.php (135)
+2010/06/28 21:43:50 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:43:50 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:43:50 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:43:50 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\stockcontrolweb\protected\views\layouts\main.php (19)
+in C:\wamp\www\stockcontrolweb\protected\views\layouts\column2.php (45)
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (32)
+2010/06/28 21:43:50 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\stockcontrolweb\protected\views\layouts\main.php (19)
+in C:\wamp\www\stockcontrolweb\protected\views\layouts\column2.php (45)
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (32)
+2010/06/28 21:43:50 [trace] [system.CModule] Loading "securityManager" application component
+in C:\wamp\www\stockcontrolweb\protected\views\layouts\main.php (19)
+in C:\wamp\www\stockcontrolweb\protected\views\layouts\column2.php (45)
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (32)
+2010/06/28 21:43:50 [trace] [system.CModule] Loading "statePersister" application component
+in C:\wamp\www\stockcontrolweb\protected\views\layouts\main.php (19)
+in C:\wamp\www\stockcontrolweb\protected\views\layouts\column2.php (45)
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (32)
+2010/06/28 21:43:50 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (32)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:48:46 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:48:46 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:48:46 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:48:46 [trace] [system.CModule] Loading "securityManager" application component
+in C:\wamp\www\stockcontrolweb\protected\views\site\login.php (16)
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (93)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:48:46 [trace] [system.CModule] Loading "statePersister" application component
+in C:\wamp\www\stockcontrolweb\protected\views\site\login.php (16)
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (93)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:48:46 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\stockcontrolweb\protected\views\layouts\main.php (19)
+in C:\wamp\www\stockcontrolweb\protected\views\layouts\column2.php (45)
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (93)
+2010/06/28 21:48:46 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\stockcontrolweb\protected\views\layouts\main.php (19)
+in C:\wamp\www\stockcontrolweb\protected\views\layouts\column2.php (45)
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (93)
+2010/06/28 21:48:46 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (93)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:48:48 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:48:48 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:48:48 [trace] [system.CModule] Loading "securityManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:48:48 [trace] [system.CModule] Loading "statePersister" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:48:48 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:48:48 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\stockcontrolweb\protected\models\Empleado.php (31)
+in C:\wamp\www\stockcontrolweb\protected\components\UserIdentity.php (14)
+in C:\wamp\www\stockcontrolweb\protected\models\LoginForm.php (50)
+2010/06/28 21:48:48 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\stockcontrolweb\protected\models\Empleado.php (31)
+in C:\wamp\www\stockcontrolweb\protected\components\UserIdentity.php (14)
+in C:\wamp\www\stockcontrolweb\protected\models\LoginForm.php (50)
+2010/06/28 21:48:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `empleado`
+in C:\wamp\www\stockcontrolweb\protected\models\Empleado.php (31)
+in C:\wamp\www\stockcontrolweb\protected\components\UserIdentity.php (14)
+in C:\wamp\www\stockcontrolweb\protected\models\LoginForm.php (50)
+2010/06/28 21:48:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `empleado`
+in C:\wamp\www\stockcontrolweb\protected\models\Empleado.php (31)
+in C:\wamp\www\stockcontrolweb\protected\components\UserIdentity.php (14)
+in C:\wamp\www\stockcontrolweb\protected\models\LoginForm.php (50)
+2010/06/28 21:48:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `empresa`
+in C:\wamp\www\stockcontrolweb\protected\components\UserIdentity.php (14)
+in C:\wamp\www\stockcontrolweb\protected\models\LoginForm.php (50)
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (88)
+2010/06/28 21:48:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `empresa`
+in C:\wamp\www\stockcontrolweb\protected\components\UserIdentity.php (14)
+in C:\wamp\www\stockcontrolweb\protected\models\LoginForm.php (50)
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (88)
+2010/06/28 21:48:48 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\stockcontrolweb\protected\components\ActiveRecord.php (33)
+in C:\wamp\www\stockcontrolweb\protected\components\UserIdentity.php (14)
+in C:\wamp\www\stockcontrolweb\protected\models\LoginForm.php (50)
+2010/06/28 21:48:48 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\stockcontrolweb\protected\components\ActiveRecord.php (33)
+in C:\wamp\www\stockcontrolweb\protected\components\UserIdentity.php (14)
+in C:\wamp\www\stockcontrolweb\protected\models\LoginForm.php (50)
+2010/06/28 21:48:48 [trace] [system.db.ar.CActiveRecord] Empleado.findByAttributes() eagerly
+in C:\wamp\www\stockcontrolweb\protected\components\UserIdentity.php (14)
+in C:\wamp\www\stockcontrolweb\protected\models\LoginForm.php (50)
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (88)
+2010/06/28 21:48:48 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id` AS `t0_c0`, `t`.`idEmpresa` AS `t0_c1`, `t`.`numero` AS `t0_c2`, `t`.`dni` AS `t0_c3`, `t`.`nombre` AS `t0_c4`, `t`.`apellido` AS `t0_c5`, `t`.`direccion` AS `t0_c6`, `t`.`telefono` AS `t0_c7`, `t`.`idCargo` AS `t0_c8`, `t`.`idTipoUsuario` AS `t0_c9`, `t`.`username` AS `t0_c10`, `t`.`password` AS `t0_c11`, `t`.`eliminado` AS `t0_c12`, `empresa`.`id` AS `t1_c0`, `empresa`.`idEmpresa` AS `t1_c1`, `empresa`.`nombre` AS `t1_c2`, `empresa`.`cuit` AS `t1_c3`, `empresa`.`direccion` AS `t1_c4`, `empresa`.`telefono` AS `t1_c5`, `empresa`.`email` AS `t1_c6`, `empresa`.`counterIdFactura` AS `t1_c7`, `empresa`.`counterIdFacturaTemporal` AS `t1_c8`, `empresa`.`counterNroFactura` AS `t1_c9`, `empresa`.`maxLoginAttempts` AS `t1_c10`, `empresa`.`porcentajeRetencion` AS `t1_c11`, `empresa`.`eliminado` AS `t1_c12` FROM `empleado` `t`  LEFT OUTER JOIN `empresa` `empresa` ON (`t`.`idEmpresa`=`empresa`.`id`) WHERE (( (t.eliminado = 0 ) ) AND (`t`.`username`=:yp0)) AND ( (t.eliminado = 0 ) ). Bind with parameter :yp0='cyberpol'
+in C:\wamp\www\stockcontrolweb\protected\components\UserIdentity.php (14)
+in C:\wamp\www\stockcontrolweb\protected\models\LoginForm.php (50)
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (88)
+2010/06/28 21:48:48 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:48:48 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:48:48 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:48:48 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\stockcontrolweb\protected\views\layouts\main.php (19)
+in C:\wamp\www\stockcontrolweb\protected\views\layouts\column2.php (45)
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (32)
+2010/06/28 21:48:48 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\stockcontrolweb\protected\views\layouts\main.php (19)
+in C:\wamp\www\stockcontrolweb\protected\views\layouts\column2.php (45)
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (32)
+2010/06/28 21:48:48 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (32)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:48:50 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:48:50 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:48:50 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:48:50 [trace] [system.web.filters.CFilterChain] Running filter ClienteController.filteraccessControl()
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:48:50 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:48:50 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:48:50 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (131)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:48:50 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (131)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:48:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `cliente`
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (131)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:48:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cliente`
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (131)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:48:50 [trace] [system.CModule] Loading "messages" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (4)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (139)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:48:50 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (12)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (139)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:48:50 [trace] [system.CModule] Loading "securityManager" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_search.php (6)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (39)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (139)
+2010/06/28 21:48:50 [trace] [system.CModule] Loading "statePersister" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_search.php (6)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (39)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (139)
+2010/06/28 21:48:50 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\yii\framework\zii\widgets\jui\CJuiWidget.php (98)
+in C:\wamp\www\yii\framework\zii\widgets\jui\CJuiWidget.php (82)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_search.php (60)
+2010/06/28 21:48:50 [trace] [system.db.ar.CActiveRecord] Cliente.count()
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (220)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (79)
+2010/06/28 21:48:50 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `cliente` `t` WHERE  (t.eliminado = 0  AND t.idEmpresa = 1) 
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (220)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (79)
+2010/06/28 21:48:50 [trace] [system.db.ar.CActiveRecord] Cliente.findAll()
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (220)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (79)
+2010/06/28 21:48:50 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cliente` `t` WHERE  (t.eliminado = 0  AND t.idEmpresa = 1)  ORDER BY numero ASC LIMIT 5
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (220)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (79)
+2010/06/28 21:48:50 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\yii\framework\zii\widgets\grid\CButtonColumn.php (171)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CButtonColumn.php (147)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (267)
+2010/06/28 21:48:50 [trace] [system.CModule] Loading "format" application component
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (469)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CDataColumn.php (128)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridColumn.php (135)
+2010/06/28 21:48:54 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:48:54 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:48:54 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:48:54 [trace] [system.web.filters.CFilterChain] Running filter ClienteController.filteraccessControl()
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:48:54 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:48:54 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:48:54 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (91)
+2010/06/28 21:48:54 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (91)
+2010/06/28 21:48:54 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `cliente`
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (91)
+2010/06/28 21:48:54 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cliente`
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (91)
+2010/06/28 21:48:54 [trace] [system.db.ar.CActiveRecord] Cliente.findByPk()
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (91)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:48:54 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cliente` `t` WHERE ( (t.eliminado = 0  AND t.idEmpresa = 1) ) AND (`t`.`id`=1) LIMIT 1
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (91)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:48:54 [trace] [system.CModule] Loading "messages" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\update.php (3)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (105)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:48:54 [trace] [system.CModule] Loading "securityManager" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_form.php (7)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\update.php (17)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (105)
+2010/06/28 21:48:54 [trace] [system.CModule] Loading "statePersister" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_form.php (7)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\update.php (17)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (105)
+2010/06/28 21:48:54 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\yii\framework\zii\widgets\jui\CJuiWidget.php (98)
+in C:\wamp\www\yii\framework\zii\widgets\jui\CJuiWidget.php (82)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_form.php (59)
+2010/06/28 21:48:54 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\yii\framework\zii\widgets\jui\CJuiWidget.php (112)
+in C:\wamp\www\yii\framework\zii\widgets\jui\CJuiWidget.php (83)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_form.php (59)
+2010/06/28 21:50:03 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:50:03 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:50:03 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:50:03 [trace] [system.web.filters.CFilterChain] Running filter ClienteController.filteraccessControl()
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:50:03 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:50:03 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:50:03 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (58)
+2010/06/28 21:50:03 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (58)
+2010/06/28 21:50:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `cliente`
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (58)
+2010/06/28 21:50:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cliente`
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (58)
+2010/06/28 21:50:03 [trace] [system.db.ar.CActiveRecord] Cliente.findByPk()
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (58)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:50:03 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cliente` `t` WHERE ( (t.eliminado = 0  AND t.idEmpresa = 1) ) AND (`t`.`id`=1) LIMIT 1
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (58)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:50:03 [trace] [system.CModule] Loading "messages" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\view.php (24)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (59)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:50:03 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\yii\framework\zii\widgets\CDetailView.php (143)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\view.php (35)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (59)
+2010/06/28 21:50:03 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\yii\framework\zii\widgets\CDetailView.php (147)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\view.php (35)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (59)
+2010/06/28 21:50:03 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\yii\framework\zii\widgets\CDetailView.php (153)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\view.php (35)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (59)
+2010/06/28 21:50:04 [trace] [system.CModule] Loading "format" application component
+in C:\wamp\www\yii\framework\zii\widgets\CDetailView.php (216)
+in C:\wamp\www\yii\framework\zii\widgets\CDetailView.php (163)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\view.php (35)
+2010/06/28 21:51:42 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:51:42 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:51:42 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:51:42 [trace] [system.web.filters.CFilterChain] Running filter ClienteController.filteraccessControl()
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:51:42 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:51:42 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:51:42 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (58)
+2010/06/28 21:51:42 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (58)
+2010/06/28 21:51:42 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `cliente`
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (58)
+2010/06/28 21:51:42 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cliente`
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (58)
+2010/06/28 21:51:42 [trace] [system.db.ar.CActiveRecord] Cliente.findByPk()
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (58)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:51:42 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cliente` `t` WHERE ( (t.eliminado = 0  AND t.idEmpresa = 1) ) AND (`t`.`id`=1) LIMIT 1
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (58)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:51:42 [trace] [system.CModule] Loading "messages" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\view.php (24)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (59)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:51:42 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\yii\framework\zii\widgets\CDetailView.php (143)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\view.php (35)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (59)
+2010/06/28 21:51:42 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\yii\framework\zii\widgets\CDetailView.php (147)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\view.php (35)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (59)
+2010/06/28 21:51:42 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\yii\framework\zii\widgets\CDetailView.php (153)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\view.php (35)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (59)
+2010/06/28 21:51:42 [trace] [system.CModule] Loading "format" application component
+in C:\wamp\www\yii\framework\zii\widgets\CDetailView.php (216)
+in C:\wamp\www\yii\framework\zii\widgets\CDetailView.php (163)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\view.php (35)
+2010/06/28 21:51:56 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:51:56 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:51:56 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:51:56 [trace] [system.web.filters.CFilterChain] Running filter ClienteController.filteraccessControl()
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:51:56 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:51:56 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:51:56 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (91)
+2010/06/28 21:51:56 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (91)
+2010/06/28 21:51:56 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `cliente`
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (91)
+2010/06/28 21:51:56 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cliente`
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (91)
+2010/06/28 21:51:56 [trace] [system.db.ar.CActiveRecord] Cliente.findByPk()
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (91)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:51:56 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cliente` `t` WHERE ( (t.eliminado = 0  AND t.idEmpresa = 1) ) AND (`t`.`id`=1) LIMIT 1
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (91)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:51:56 [trace] [system.CModule] Loading "messages" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\update.php (3)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (105)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:51:56 [trace] [system.CModule] Loading "securityManager" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_form.php (7)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\update.php (18)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (105)
+2010/06/28 21:51:56 [trace] [system.CModule] Loading "statePersister" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_form.php (7)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\update.php (18)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (105)
+2010/06/28 21:51:56 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\yii\framework\zii\widgets\jui\CJuiWidget.php (98)
+in C:\wamp\www\yii\framework\zii\widgets\jui\CJuiWidget.php (82)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_form.php (59)
+2010/06/28 21:51:56 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\yii\framework\zii\widgets\jui\CJuiWidget.php (112)
+in C:\wamp\www\yii\framework\zii\widgets\jui\CJuiWidget.php (83)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_form.php (59)
+2010/06/28 21:54:45 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:54:45 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:54:45 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:54:45 [trace] [system.web.filters.CFilterChain] Running filter ClienteController.filteraccessControl()
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:54:45 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:54:45 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:54:45 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (91)
+2010/06/28 21:54:45 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (91)
+2010/06/28 21:54:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `cliente`
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (91)
+2010/06/28 21:54:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cliente`
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (91)
+2010/06/28 21:54:45 [trace] [system.db.ar.CActiveRecord] Cliente.findByPk()
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (91)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:54:45 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cliente` `t` WHERE ( (t.eliminado = 0  AND t.idEmpresa = 1) ) AND (`t`.`id`=1) LIMIT 1
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (91)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:54:45 [trace] [system.CModule] Loading "messages" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\update.php (3)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (105)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:54:45 [trace] [system.CModule] Loading "securityManager" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_form.php (7)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\update.php (18)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (105)
+2010/06/28 21:54:45 [trace] [system.CModule] Loading "statePersister" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_form.php (7)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\update.php (18)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (105)
+2010/06/28 21:54:45 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\yii\framework\zii\widgets\jui\CJuiWidget.php (98)
+in C:\wamp\www\yii\framework\zii\widgets\jui\CJuiWidget.php (82)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_form.php (59)
+2010/06/28 21:54:45 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\yii\framework\zii\widgets\jui\CJuiWidget.php (112)
+in C:\wamp\www\yii\framework\zii\widgets\jui\CJuiWidget.php (83)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_form.php (59)
+2010/06/28 21:54:53 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:54:53 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:54:53 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:54:53 [trace] [system.web.filters.CFilterChain] Running filter ClienteController.filteraccessControl()
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:54:53 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:54:53 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:54:53 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (58)
+2010/06/28 21:54:53 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (58)
+2010/06/28 21:54:53 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `cliente`
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (58)
+2010/06/28 21:54:53 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cliente`
+in C:\wamp\www\stockcontrolweb\protected\models\Cliente.php (29)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (58)
+2010/06/28 21:54:53 [trace] [system.db.ar.CActiveRecord] Cliente.findByPk()
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (58)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:54:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cliente` `t` WHERE ( (t.eliminado = 0  AND t.idEmpresa = 1) ) AND (`t`.`id`=1) LIMIT 1
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (154)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (58)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:54:53 [trace] [system.CModule] Loading "messages" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\view.php (25)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (59)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:54:53 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\yii\framework\zii\widgets\CDetailView.php (143)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\view.php (36)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (59)
+2010/06/28 21:54:53 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\yii\framework\zii\widgets\CDetailView.php (147)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\view.php (36)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (59)
+2010/06/28 21:54:53 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\yii\framework\zii\widgets\CDetailView.php (153)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\view.php (36)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (59)
+2010/06/28 21:54:53 [trace] [system.CModule] Loading "format" application component
+in C:\wamp\www\yii\framework\zii\widgets\CDetailView.php (216)
+in C:\wamp\www\yii\framework\zii\widgets\CDetailView.php (163)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\view.php (36)
+2010/06/28 21:56:13 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:56:13 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:56:13 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 21:56:13 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\stockcontrolweb\protected\views\layouts\main.php (19)
+in C:\wamp\www\stockcontrolweb\protected\views\layouts\column2.php (45)
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (32)
+2010/06/28 21:56:13 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\stockcontrolweb\protected\views\layouts\main.php (19)
+in C:\wamp\www\stockcontrolweb\protected\views\layouts\column2.php (45)
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (32)
+2010/06/28 21:56:13 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (32)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 22:10:40 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 22:10:40 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 22:10:40 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 22:10:40 [trace] [system.web.filters.CFilterChain] Running filter ClienteController.filteraccessControl()
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 22:10:40 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 22:10:40 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 22:10:40 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (131)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 22:10:40 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (131)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 22:10:40 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `cliente`
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (131)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 22:10:40 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cliente`
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (131)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 22:10:40 [trace] [system.CModule] Loading "messages" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (4)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (139)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 22:10:40 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (12)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (139)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 22:10:40 [trace] [system.CModule] Loading "securityManager" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_search.php (6)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (39)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (139)
+2010/06/28 22:10:40 [trace] [system.CModule] Loading "statePersister" application component
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_search.php (6)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (39)
+in C:\wamp\www\stockcontrolweb\protected\controllers\ClienteController.php (139)
+2010/06/28 22:10:40 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\yii\framework\zii\widgets\jui\CJuiWidget.php (98)
+in C:\wamp\www\yii\framework\zii\widgets\jui\CJuiWidget.php (82)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\_search.php (60)
+2010/06/28 22:10:40 [trace] [system.db.ar.CActiveRecord] Cliente.count()
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (220)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (79)
+2010/06/28 22:10:40 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `cliente` `t` WHERE  (t.eliminado = 0  AND t.idEmpresa = 1) 
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (220)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (79)
+2010/06/28 22:10:40 [trace] [system.db.ar.CActiveRecord] Cliente.findAll()
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (220)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (79)
+2010/06/28 22:10:40 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cliente` `t` WHERE  (t.eliminado = 0  AND t.idEmpresa = 1)  ORDER BY numero ASC LIMIT 5
+in C:\wamp\www\yii\framework\zii\widgets\CBaseListView.php (99)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (220)
+in C:\wamp\www\stockcontrolweb\protected\views\cliente\index.php (79)
+2010/06/28 22:10:40 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\yii\framework\zii\widgets\grid\CButtonColumn.php (171)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CButtonColumn.php (147)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (267)
+2010/06/28 22:10:40 [trace] [system.CModule] Loading "format" application component
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php (469)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CDataColumn.php (128)
+in C:\wamp\www\yii\framework\zii\widgets\grid\CGridColumn.php (135)
+2010/06/28 22:18:39 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 22:18:39 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 22:18:39 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 22:18:39 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (101)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 22:18:39 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (101)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 22:18:39 [trace] [system.CModule] Loading "securityManager" application component
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (101)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 22:18:39 [trace] [system.CModule] Loading "statePersister" application component
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (101)
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 22:18:39 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 22:18:39 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 22:18:39 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\stockcontrolweb\index.php (12)
+2010/06/28 22:18:39 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\stockcontrolweb\protected\views\layouts\main.php (19)
+in C:\wamp\www\stockcontrolweb\protected\views\layouts\column2.php (45)
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (32)
+2010/06/28 22:18:39 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\stockcontrolweb\protected\views\layouts\main.php (19)
+in C:\wamp\www\stockcontrolweb\protected\views\layouts\column2.php (45)
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (32)
+2010/06/28 22:18:39 [trace] [system.CModule] Loading "securityManager" application component
+in C:\wamp\www\stockcontrolweb\protected\views\layouts\main.php (19)
+in C:\wamp\www\stockcontrolweb\protected\views\layouts\column2.php (45)
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (32)
+2010/06/28 22:18:39 [trace] [system.CModule] Loading "statePersister" application component
+in C:\wamp\www\stockcontrolweb\protected\views\layouts\main.php (19)
+in C:\wamp\www\stockcontrolweb\protected\views\layouts\column2.php (45)
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (32)
+2010/06/28 22:18:39 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\stockcontrolweb\protected\controllers\SiteController.php (32)
+in C:\wamp\www\stockcontrolweb\index.php (12)

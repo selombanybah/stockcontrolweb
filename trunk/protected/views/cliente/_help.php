@@ -1,0 +1,1 @@
+<p><strong>Opciones de b&uacute;squeda</strong><br />Opcionalmente se pueden ingresar operadores de comparaci&oacute;n (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>&lt;&gt;</b> or <b>=</b>) al comienzo de cada valor a buscar para especificar como se debe hacer la comparaci&oacute;n.</p>
